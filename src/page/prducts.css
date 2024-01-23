@@ -1,0 +1,15 @@
+/* ... otros estilos ... */
+
+.products-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product {
+    border: 1px solid #8b4513;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  

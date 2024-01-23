@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #8b4513; /* Marrón oscuro para representar la estética gaucha */
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-size: 16px;
+  }
+  
+  .btn-about {
+    background-color: #b95f1bd5;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .navbar img{
+    width: 120px;
+    height: 130px;
+    margin-left: -10px;
+  }
+  
+  
+  @media only screen and (max-width: 800px) {
+    .navbar {
+      flex-direction: column; /* Cambia la dirección del eje principal a columna */
+      align-items: center;
+    }
+  
+    .navbar a {
+      margin: 10px 0; /* Añade margen en lugar de marginar horizontalmente */
+    }
+  
+    .navbar img {
+      width: 80px;
+      height: 90px;
+      margin-bottom: 10px;
+    }
+  }
