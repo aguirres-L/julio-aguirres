@@ -1,5 +1,8 @@
 
-  
+  .modal{
+    
+    color: white;
+  }
  
   
   .close {
@@ -13,4 +16,9 @@
   .open {
     display: block;
   }
+  @media only screen and (max-width: 800px) {
   
+    .modal{
+      margin-top: 30%;
+    }
+  }

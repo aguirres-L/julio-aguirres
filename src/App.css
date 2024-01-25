@@ -9,7 +9,7 @@ body {
   font-family: 'Georgia', serif; /* Cambié la fuente a una más clásica */
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4; /* Añadí un color de fondo suave */
+  background-color: #0e0d0dfc; /* Añadí un color de fondo suave */
 }
 
 .navbar {
@@ -47,17 +47,17 @@ body {
 
 .product {
   width: 30%;
-  border: 1px solid #8b4513; /* Borde marrón oscuro */
   padding: 20px;
   margin: 20px;
   text-align: center;
   transition: transform 0.3s ease-in-out;
-  background-color: #fff; /* Fondo blanco para destacar los productos */
+    
 }
 
 .product:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra al hacer hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0); /* Sutil sombra al hacer hover */
+  border: solid 1.8px #8b4513 ;
 }
 
 .product h2 {
@@ -74,8 +74,8 @@ body {
 .product img {
   max-width: 100%;
   height: auto;
-  border: 1px solid #8b4513;
   margin-bottom: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+  background-color: transparent;
+  
 }
+

@@ -1,15 +1,34 @@
-/* ... otros estilos ... */
-
+/* Estilos comunes para todos los tamaños de pantalla */
 .products-section {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.container-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #8b4513;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+
+/* Estilos responsivos para pantallas más pequeñas (por ejemplo, hasta 600px) */
+@media only screen and (max-width: 600px) {
+  .container-productos {
+    justify-content: flex-start; /* Cambia a inicio para evitar centrar en pantallas pequeñas */
   }
-  
+
   .product {
-    border: 1px solid #8b4513;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-    background-color: #fff;
+    width: 100%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
   }
-  
+}
+
+/* Agrega más reglas de medios según sea necesario para otros tamaños de pantalla */

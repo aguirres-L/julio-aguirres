@@ -13,18 +13,16 @@
     margin: 20px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
-    background-color: #fff; /* Fondo blanco para destacar los productos */
+    border-radius: 10px;
   }
   
-  .product:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra al hacer hover */
-  }
+  
   
   .product h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #8b4513; /* Texto marrón oscuro */
+    color: #f7f4f2; /* Texto marrón oscuro */
+    font-family: 'Noticia Text', serif;
   }
   
   .product p {
@@ -35,8 +33,30 @@
   .product img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #8b4513;
     margin-bottom: 10px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+  }
+  
+  
+  /* ProductCarousel.css */
+
+.product-carousel {
+  border: 1px solid #8b4513;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.407);
+}
+
+  
+  @media only screen and (max-width: 800px) {
+    .product {
+      width: 40%;
+      border:  solid 2px red;
+    }
+    .products{
+      margin-top: 20%;
+    }
   }
